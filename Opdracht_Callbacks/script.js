@@ -4,10 +4,8 @@ function huiswerkMaken(vak, callback) {
     callback();
 };
 
-huiswerkMaken(`wiskunde`, klaarMetHuiswerk());
-
 function klaarMetHuiswerk() {
     console.log(`Kijk Paps/Mams, ik ben klaar met mijn huiswerk!`);
 };
 
-huiswerkMaken(`wiskunde`, klaarMetHuiswerk());
+huiswerkMaken(`wiskunde`, klaarMetHuiswerk);
